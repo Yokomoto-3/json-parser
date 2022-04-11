@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8621f60-8042-450a-be56-b2630e4d4d69" name="Changes" comment="" />
+    <list default="true" id="a8621f60-8042-450a-be56-b2630e4d4d69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Condition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Predicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScreenRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Types.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testJson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonParseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonParseMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/givenJsonHasUnknownValues_whenDeserializing_thenException.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -27,6 +42,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="26eH9R2aqoJwxNZ3oqHpVwHPQKG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +50,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -45,16 +63,16 @@
       <recent name="C:\Users\rizva\IdeaProjects\ScreenRuleValidator\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.egeSberbank">
+  <component name="RunManager" selected="JUnit.JsonParseMain.testSimpleParse">
     <configuration name="egeSberbank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="egeSberbank" />
-      <module name="ScreenRuleValidator" />
+      <module name="json-parser" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="JsonParseMain.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScreenRuleValidator" />
+      <module name="json-parser" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonParseMain" />
       <option name="METHOD_NAME" value="test1" />
@@ -64,7 +82,7 @@
       </method>
     </configuration>
     <configuration name="JsonParseMain.testSimpleParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScreenRuleValidator" />
+      <module name="json-parser" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonParseMain" />
       <option name="METHOD_NAME" value="testSimpleParse" />
@@ -74,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="givenJsonHasUnknownValues_whenDeserializing_thenException.givenJsonHasUnknownValues_whenDeserializing_thenException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScreenRuleValidator" />
+      <module name="json-parser" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="givenJsonHasUnknownValues_whenDeserializing_thenException" />
       <option name="METHOD_NAME" value="givenJsonHasUnknownValues_whenDeserializing_thenException" />
@@ -85,9 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonParseMain.testSimpleParse" />
         <item itemvalue="Application.egeSberbank" />
         <item itemvalue="JUnit.givenJsonHasUnknownValues_whenDeserializing_thenException.givenJsonHasUnknownValues_whenDeserializing_thenException" />
-        <item itemvalue="JUnit.JsonParseMain.testSimpleParse" />
         <item itemvalue="JUnit.JsonParseMain.test1" />
       </list>
     </recent_temporary>
@@ -102,26 +120,22 @@
       <updated>1647776982636</updated>
       <workItem from="1647776984232" duration="2396000" />
       <workItem from="1649003800263" duration="15069000" />
+      <workItem from="1649649230036" duration="6704000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/JsonParseMain.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/givenJsonHasUnknownValues_whenDeserializing_thenException.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
